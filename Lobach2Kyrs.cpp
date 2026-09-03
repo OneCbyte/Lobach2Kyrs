@@ -8,6 +8,6 @@ int main()
     std::cin >> a;
     std::cout << "Input b: ";
     std::cin >> b;
-    std::cout << "Result " << a + b;
+    std::cout << "Result " << b + b;
     return 0;
 }
