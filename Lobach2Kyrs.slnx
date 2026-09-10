@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Lobach2Kyrs/Lobach2Kyrs.vcxproj" Id="25d149d5-536e-410e-b32f-e99b38910124" />
+</Solution>
