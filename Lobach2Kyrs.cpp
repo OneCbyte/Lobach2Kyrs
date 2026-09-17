@@ -2,12 +2,14 @@
 
 int main()
 {
-    int a, b;
-    std::cout << "Hello World!\n";
-    std::cout << "Input a: ";
+    setlocale(LC_ALL, "rus");
+    int a, h;
+    double S;
+    std::cout << "Введите сторону треугольника: ";
     std::cin >> a;
-    std::cout << "Input b: ";
-    std::cin >> b;
-    std::cout << "Result " << a + b;
+    std::cout << "Введите высоту треугольника: ";
+    std::cin >> h;
+    S = (a * h) / 2.0;
+    std::cout << "Площадь треугольника равна - " << S;
     return 0;
 }
